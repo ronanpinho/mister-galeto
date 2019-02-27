@@ -11812,7 +11812,11 @@ a.back-to-top i {
     bottom: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, .5)
+    background: rgba(0, 0, 0, .0)
+}
+
+@media (max-width: 768px) {
+    background: rgba(0, 0, 0, .0);
 }
 
 .dropdown-menu:before, .timeline li:before {
@@ -12392,7 +12396,7 @@ a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]
 }
 
 .services-item .services-content h3 a:hover {
-    color: #B20008
+    color: #f88400
 }
 
 .services-item .services-content p {
@@ -13638,7 +13642,11 @@ a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]
     margin-top: 8%;
 }
 
-#areas, #delivery ul li {
+#areas ul li {
+    margin-bottom: 2%;
+}
+
+#delivery ul li {
     margin-bottom: 2%;
 }
 #areas, #delivery li span {
