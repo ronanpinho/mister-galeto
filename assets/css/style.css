@@ -383,9 +383,13 @@ hr {
 
 .img-fluid, .img-thumbnail {
     max-width: 100%;
-    height: auto
+    height: auto;
+    width:100%;
 }
 
+.img-thumbnail img {
+    width: 100%;
+}
 .small, small {
     font-size: 80%;
     font-weight: 400
