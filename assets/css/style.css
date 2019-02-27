@@ -11512,6 +11512,13 @@ h1, h2, h3, h4 {
     font-weight: 700
 }
 
+@media (max-width: 768px) {
+    h1, h2, h3, h4 {
+        font-size: 20px;
+        font-weight: 700
+    }
+}
+
 .script-font {
     font-family: "Source Sans Pro", sans-serif;
 }
@@ -11617,6 +11624,23 @@ ol, ul {
     z-index: 1
 }
 
+
+@media (max-width: 768px) {
+    .btn-common {
+        margin: 10% auto auto!important;
+        display: table;
+    }
+
+    #areas img {
+        display: table;
+        margin:  0 auto;
+    }
+
+    #areas .profile-wrapper {
+        text-align: center;
+
+    }
+}
 .btn-danger:hover {
     background-color: #F55262;
     border-color: #F55262;
@@ -12171,7 +12195,8 @@ a.back-to-top i {
 @media (max-width: 767px) {
     .hero-area-bg {
         background: url(../img/imagem-inicio.jpg) no-repeat;
-        background-size: cover
+        background-size: cover;
+        top: 30px;
     }
 
     .hero-area-bg-delivery {
@@ -12187,7 +12212,8 @@ a.back-to-top i {
 @media (min-width: 768px) {
     .hero-area-bg {
         background: url(../img/imagem-inicio.jpg) no-repeat;
-        background-size: cover
+        background-size: cover;
+        top: 30px;
     }
     .hero-area-bg-delivery {
         width: 100%;
@@ -13503,11 +13529,6 @@ a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]
     content: "\e620"
 }
 
-.depoimento, .dol, .i01, .i02, .i03, .i04, .lgo, .nicinha, .r01, .r02, .r03, .r04, .s01, .s02, .s03, .s04, .s05, .s06, .whatsapp {
-    max-width: 100%;
-    background-image: url(../img/sprite.png)
-}
-
 .depoimento {
     background-position: 0 0;
     background-size: 100%
@@ -13656,6 +13677,50 @@ a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]
 #delivery ul li {
     margin-bottom: 2%;
 }
+
+@media (max-width: 768px) {
+    #areas ul li {
+        margin-bottom: 3%;
+    }
+
+    #delivery ul li {
+        margin-bottom: 3%;
+    }
+
+    #delivery, #areas h3 {
+        margin-bottom: 10%;
+    }
+
+    #delivery, #areas ul li span {
+        font-size: 19px;
+    }
+
+    #whatsapp, #whatsapp-delivery {
+        margin: 0 auto;
+        display: table;
+    }
+
+    #contato {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .contato-block {
+        margin-bottom: 40px;
+    }
+
+    .footer-right-area {
+        margin-bottom: 40px;
+    }
+
+    .footer-right-area h2 {
+        text-align: center;
+    }
+
+    #areas .profile-wrapper {
+        padding-bottom: 0;
+    }
+}
 #areas, #delivery li span {
     font-size: 22px;
     font-weight: bold;
@@ -13664,4 +13729,53 @@ a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]
 
 .hero-area-bg-delivery .container {
     position: absolute;
+}
+
+.btn-alt {
+    border: 1px solid;
+    background: transparent;
+}
+
+.btn-alt:hover {
+    background:#F88400;
+}
+@media (max-width: 768px) {
+    #delivery img {
+        display: table;
+        margin: 0 auto;
+    }
+
+    #delivery {
+        padding-top: 100px;
+        padding-bottom: 0;
+    }
+
+    #delivery ul li {
+        text-align: center;
+    }
+
+    #delivery ul li span {
+        font-size: 19px;
+    }
+
+    #delivery h3 {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 768px) {
+   .video-desktop {
+       display: none;
+   }
+    .video-mobile {
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 768px) {
+   .video-mobile {
+       display: none;
+   }
 }
