@@ -11794,14 +11794,17 @@ a.back-to-top i {
 
 @media (max-width: 767px) {
     .counter-section {
+        background-image: url("../img/mobile.jpg");
+        background-position: center;
+        background-size: cover;
         overflow: hidden;
         position: relative;
-        background: #F88400
     }
 }
 
 @media (min-width: 768px) {
     .counter-section {
+
         background: url(../img/autoridade.jpg) bottom;
         overflow: hidden;
         position: relative;
@@ -11816,7 +11819,7 @@ a.back-to-top i {
     bottom: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, .0)
+    background: rgba(0, 0, 0, .4)
 }
 
 @media (max-width: 768px) {
@@ -12095,7 +12098,7 @@ a.back-to-top i {
 }
 
 .controls .active, .slicknav_btn {
-    border-color: #B20008
+    border-color: #fff
 }
 
 .dropdown .dropdown-menu .dropdown-item:first-child {
@@ -12113,7 +12116,7 @@ a.back-to-top i {
 }
 
 .slicknav_menu .slicknav_icon-bar {
-    background: #B20008
+    background: #fff
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
