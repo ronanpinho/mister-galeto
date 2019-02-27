@@ -119,7 +119,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
-    color: #1F1B1B !important
+    color: #472c26 !important
 }
 
 abbr[data-original-title], abbr[title] {
@@ -11940,7 +11940,7 @@ a.back-to-top i {
     animation-fill-mode: both;
     -webkit-animation-name: fadeInDown;
     animation-name: fadeInDown;
-    background: #FFF !important
+    background: #f88400 !important
 }
 
 .top-nav-collapse .navbar-brand {
@@ -11963,11 +11963,11 @@ a.back-to-top i {
 }
 
 .top-nav-collapse .navbar-nav li.active a.nav-link {
-    color: #B20008 !important
+    color: #fff !important
 }
 
 .indigo {
-    background: #FFF
+    background: #f88400;
 }
 
 .dropdown-item.active, .dropdown-item:active, .menu-bg {
@@ -12011,7 +12011,7 @@ a.back-to-top i {
 }
 
 .navbar li.active a.nav-link {
-    color: #B20008
+    color: #fff
 }
 
 .dropdown-toggle::after {
@@ -13618,7 +13618,17 @@ a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]
 }
 
 .alunos10 {
-    background-position: 0 100%
+    background-position: 0 100%;
+}
+#areas ul {
+    list-style-type: circle;
+    margin-top: 8%;
 }
 
+#areas ul li {
+    margin-bottom: 2%;
+}
+#areas li span {
+    font-size: 22px;
+    font-weight: bold;
 }
