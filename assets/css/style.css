@@ -11792,7 +11792,7 @@ a.back-to-top i {
     .counter-section {
         overflow: hidden;
         position: relative;
-        background: #B20008
+        background: #F88400
     }
 }
 
@@ -12002,7 +12002,7 @@ a.back-to-top i {
 }
 
 .navbar-expand-lg .navbar-nav li .active > a, .navbar-expand-lg .navbar-nav li a:focus, .navbar-expand-lg .navbar-nav li a:hover {
-    color: #B20008;
+    color: #fff;
     outline: 0
 }
 
@@ -12163,15 +12163,27 @@ a.back-to-top i {
         background-size: cover
     }
 
-    .alunos {
-        background: url(../img/capa-c-mobile.jpg) no-repeat !important
+    .hero-area-bg-delivery {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
     }
+
 }
 
 @media (min-width: 768px) {
     .hero-area-bg {
         background: url(../img/imagem-inicio.jpg) no-repeat;
         background-size: cover
+    }
+    .hero-area-bg-delivery {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
     }
 
     .alunos {
@@ -12191,8 +12203,8 @@ a.back-to-top i {
     height: 100%;
     top: 0;
     left: 0;
-    /*background: #0C0808;*/
-    opacity: .6
+    background: #0C0808;
+    opacity: .2
 }
 
 #hero-area .contents {
@@ -12511,7 +12523,7 @@ a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]
 }
 
 .footer-area .footer-text .nav-inline .nav-link:hover {
-    color: #B20008
+    color: #fff
 }
 
 .footer-2 {
@@ -12545,7 +12557,7 @@ a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]
 }
 
 #copyright p a:hover, .footer-2 ul li a:hover {
-    color: #B20008
+    color: #fff
 }
 
 #copyright {
@@ -13621,16 +13633,20 @@ a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]
 .alunos10 {
     background-position: 0 100%;
 }
-#areas ul {
+#areas, #delivery ul {
     list-style-type: circle;
     margin-top: 8%;
 }
 
-#areas ul li {
+#areas, #delivery ul li {
     margin-bottom: 2%;
 }
-#areas li span {
+#areas, #delivery li span {
     font-size: 22px;
     font-weight: bold;
     color: #ff8500
+}
+
+.hero-area-bg-delivery .container {
+    position: absolute;
 }
