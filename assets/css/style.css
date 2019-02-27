@@ -11567,7 +11567,7 @@ ol, ul {
 }
 
 .section-title-header p {
-    text: center;
+    text-align: center;
     font-weight: 400;
     line-height: 26px;
     padding-bottom: 36px
@@ -11579,7 +11579,7 @@ ol, ul {
     text-align: center;
     letter-spacing: 1px;
     line-height: 1;
-    margin-bottom: 48px;
+    margin-bottom: 25px;
     padding: 0 10px;
     position: relative
 }
@@ -11608,7 +11608,7 @@ ol, ul {
 }
 
 .btn-common {
-    background-color: #B20008;
+    background-color: #f88400;
     position: relative;
     z-index: 1
 }
@@ -11706,7 +11706,7 @@ a.back-to-top i {
     height: 40px;
     line-height: 40px;
     color: #FFF;
-    background: #B20008;
+    background: #f88400;
     border-radius: 2px;
     text-align: center;
     transition: all .2s ease-in-out;
@@ -11798,7 +11798,7 @@ a.back-to-top i {
 
 @media (min-width: 768px) {
     .counter-section {
-        background: url(../img/resultados.jpg) bottom;
+        background: url(../img/autoridade.jpg) bottom;
         overflow: hidden;
         position: relative;
         background-size: cover
@@ -12159,7 +12159,7 @@ a.back-to-top i {
 
 @media (max-width: 767px) {
     .hero-area-bg {
-        background: url(../img/capa-p-mobile.jpg) no-repeat;
+        background: url(../img/imagem-inicio.jpg) no-repeat;
         background-size: cover
     }
 
@@ -12170,7 +12170,7 @@ a.back-to-top i {
 
 @media (min-width: 768px) {
     .hero-area-bg {
-        background: url(../img/capa-p.jpg) no-repeat;
+        background: url(../img/imagem-inicio.jpg) no-repeat;
         background-size: cover
     }
 
@@ -12191,7 +12191,7 @@ a.back-to-top i {
     height: 100%;
     top: 0;
     left: 0;
-    background: #0C0808;
+    /*background: #0C0808;*/
     opacity: .6
 }
 
@@ -12343,7 +12343,7 @@ a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]
 }
 
 .services {
-    background: #F0F0F0
+    background: #DEDEDE
 }
 
 .services-item {
@@ -12441,7 +12441,7 @@ a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]
 }
 
 .footer-right-contact .contact-icon {
-    background: #B20008;
+    background: #f88400;
     color: #FFF;
     border-radius: 50%;
     font-size: 20px;
@@ -12491,7 +12491,7 @@ a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]
 }
 
 .footer-area {
-    background: #B20008
+    background: #472c26
 }
 
 .footer-area .footer-text p {
@@ -12501,7 +12501,8 @@ a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]
 }
 
 .footer-area .footer-text p a {
-    color: #FFF
+    color: #ff8500;
+    border-bottom: 1px dotted #ff8500;
 }
 
 .footer-area .footer-text .nav-inline .nav-link {
@@ -13631,4 +13632,5 @@ a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]
 #areas li span {
     font-size: 22px;
     font-weight: bold;
+    color: #ff8500
 }
