@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3e19a195-7f09-4e94-a17c-077b27c7639c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery.html" beforeDir="false" afterPath="$PROJECT_DIR$/delivery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -208,7 +206,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fcc-contabilidade" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -306,16 +304,15 @@
       <workItem from="1551117504125" duration="632000" />
       <workItem from="1551268992224" duration="110000" />
       <workItem from="1551269181285" duration="34938000" />
-      <workItem from="1551353371961" duration="3171000" />
+      <workItem from="1551353371961" duration="3844000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138412000" />
+    <option name="totallyTimeSpent" value="139085000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4923077" visible="true" weight="0.14434524" />
       <window_info id="Structure" order="1" sideWeight="0.50769234" side_tool="true" weight="0.2061012" />
